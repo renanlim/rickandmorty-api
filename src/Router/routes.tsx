@@ -1,6 +1,6 @@
 import { createBrowserRouter } from "react-router-dom";
 import Private from "../Private/Private";
-import Loginn from "../Layout/Loginn";
+import Loginn from "../Layout/ScreenLogin";
 
 
 const router = createBrowserRouter([

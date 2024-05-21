@@ -1,9 +1,12 @@
+import Router from './Router/Router'
+import Application from './context/AppContext'
+
 function App() {
   return (
-      <h1 className="p-4 bg-blue-500 text-white rounded-lg">
-        Hello world!
-      </h1>
-  );
+    <Application>
+      <Router />
+    </Application>
+  )
 }
 
-export default App;
+export default App
